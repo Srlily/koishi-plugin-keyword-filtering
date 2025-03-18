@@ -1,0 +1,36 @@
+{
+  "name": "koishi-plugin-keyword-filtering",
+  "description": "[关键词触发]自用：当触发关键词时，会撤回该消息，并将关键字替换为图标（自己设置），并发送撤回的消息。ps:如果无法显示配置请删除本插件重新添加！",
+  "version": "1.0.7",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": {
+    "name": "Srlily",
+    "email": "smlily6666@outlook.com",
+    "url": "https://github.com/Srlily"
+  },
+  "homepage": "https://github.com/Srlily/koishi-plugin-keyword-filtering",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srlily/koishi-plugin-keyword-filtering.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Srlily/koishi-plugin-keyword-filtering/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "onebot",
+    "qq",
+    "keyword"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  }
+}
